@@ -44,7 +44,7 @@ sudo apt-get install flashplugin-installer -y
 sleep 1
 #apt-get install chromium-browser -y
 sleep 1
-wget https://github.com/jxxuat/xxx/raw/master/install_flash_player_11_linux.x86_64.tar.gz
+wget https://github.com/marry-xxx/inject/raw/main/install_flash_player_11_linux.x86_64.tar.gz
 tar -xvf install_flash_player_11_linux.x86_64.tar.gz
 sudo cp libflashplayer.so /usr/lib/mozilla/plugins
 sleep 2
@@ -61,8 +61,8 @@ cd /home
 #sleep 3
 #mv chrome chrome60
 #cd chrome60
-##wget https://github.com/jxuat/xxx/raw/main/fmbi/game%2Balexa.tar.gz
-#wget https://github.com/jxuat/xxx/raw/main/default.tar.gz
+##wget https://github.com/marry-xxx/inject/raw/main/fmbi/game%2Balexa.tar.gz
+#wget https://github.com/marry-xxx/inject/raw/main/default.tar.gz
 #sleep 3
 #rm -rf Default
 #sleep 3
@@ -86,30 +86,30 @@ tar -xvf DE.tar.gz
 $cd chrome60
 $rm -rf Default
 $sleep 1
-$wget https://github.com/jxxuat/xxx/raw/master/Default.zip
+$wget https://github.com/marry-xxx/inject/raw/main/Default.zip
 $unzip Default.zip
 
 cd
 mkdir Desktop
 cd Desktop
-wget https://raw.githubusercontent.com/jxxuat/xxx/master/smart/chrc.sh
-#wget https://raw.githubusercontent.com/jxuat/xxx/master/smart/FIGPX.ascr
-#wget https://github.com/jxuat/xxx/raw/master/smart/GPXNew.sh
-#wget https://raw.githubusercontent.com/jxxuat/xxx/master/smart/linkFIGPX.sh
-wget https://raw.githubusercontent.com/jxxuat/xxx/master/smart/playgpx.png
-wget https://raw.githubusercontent.com/jxxuat/xxx/master/smart/playgpx2.png
+wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/chrc.sh
+#wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/FIGPX.ascr
+#wget https://github.com/marry-xxx/inject/raw/main/smart/GPXNew.sh
+#wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/linkFIGPX.sh
+wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/playgpx.png
+wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/playgpx2.png
 #chmod +x FIGPX.ascr
 #chmod +x GPXNew.sh
 #chmod +x linkFIGPX.sh
 chmod +x chrc.sh
-wget https://raw.githubusercontent.com/jxxuat/xxx/master/smart/gpx.ascr
-wget https://raw.githubusercontent.com/jxxuat/xxx/master/smart/GPXif.sh
-wget https://raw.githubusercontent.com/jxxuat/xxx/master/smart/gpxclick.ascr
-wget https://raw.githubusercontent.com/jxxuat/xxx/master/smart/GPXclick.sh
-#wget https://raw.githubusercontent.com/jxxuat/xxx/master/smart/gpxads.ascr
-#wget https://raw.githubusercontent.com/jxxuat/xxx/master/smart/GPXifads.sh
-#wget https://raw.githubusercontent.com/jxxuat/xxx/master/smart/GPXads2.ascr
-#wget https://raw.githubusercontent.com/jxxuat/xxx/master/smart/GPXifads2.sh
+wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/gpx.ascr
+wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/GPXif.sh
+wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/gpxclick.ascr
+wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/GPXclick.sh
+#wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/gpxads.ascr
+#wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/GPXifads.sh
+#wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/GPXads2.ascr
+#wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/GPXifads2.sh
 chmod +x gpx.ascr
 chmod +x GPXif.sh
 chmod +x gpxclick.ascr
@@ -126,14 +126,14 @@ apt install apache2 -y
 #cd /etc/apache2
 #rm apache2.conf
 #rm apache2.conf
-#wget https://github.com/jxxuat/xxx/master/apache2.conf
+#wget https://github.com/marry-xxx/inject/main/apache2.conf
 #service apache2 restart
 #cd /var/www/html
 #rm index.html
-#wget https://github.com/jxuat/xxx/raw/main/money/google.zip
+#wget https://github.com/marry-xxx/inject/raw/main/money/google.zip
 #unzip google.zip
-#wget https://github.com/jxuat/xxx/raw/main/HTML/index.html
-#wget https://github.com/jxuat/xxx/raw/main/HTML/style.css
+#wget https://github.com/marry-xxx/inject/raw/main/HTML/index.html
+#wget https://github.com/marry-xxx/inject/raw/main/HTML/style.css
 apt-get install proxychains -y
 #sleep 1
 apt-get install sl -y
@@ -143,8 +143,8 @@ snap install termdown
 cd /etc
 mv hosts hosts.bakk
 mv proxychains.conf proxychains.conf.bak
-wget https://github.com/jxxuat/xxx/raw/master/smart/proxychains.conf
-#wget https://github.com/jxuat/xxx/raw/main/fmbi/hosts
+wget https://github.com/marry-xxx/inject/raw/main/smart/proxychains.conf
+#wget https://github.com/marry-xxx/inject/raw/main/fmbi/hosts
 #cp hosts hosts.bak
 pip install termdown
 sudo apt install xrdp -y 
