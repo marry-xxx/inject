@@ -2,15 +2,15 @@
 <scriptfile>
     <settings program="actiona" version="3.10.1" scriptVersion="1.1.0" os="GNU/Linux"/>
     <actions>
+        <action name="ActionPause" version="1.0.0"/>
+        <action name="ActionWheel" version="1.0.0"/>
         <action name="ActionClick" version="1.0.0"/>
         <action name="ActionMoveCursor" version="1.0.0"/>
-        <action name="ActionWheel" version="1.0.0"/>
-        <action name="ActionPause" version="1.0.0"/>
     </actions>
     <parameters/>
     <resources/>
     <script pauseBefore="0" pauseAfter="0">
-        <action name="ActionClick" enabled="false" pauseAfter="600">
+        <action name="ActionClick" pauseAfter="600">
             <exception id="0" action="0" line=""/>
             <exception id="1" action="0" line=""/>
             <exception id="2" action="1" line=""/>
