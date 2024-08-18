@@ -8,7 +8,7 @@
     <parameters/>
     <resources/>
     <script pauseBefore="0" pauseAfter="0">
-        <action name="ActionClick" enabled="false" pauseAfter="600">
+        <action name="ActionClick" pauseAfter="600">
             <exception id="0" action="0" line=""/>
             <exception id="1" action="0" line=""/>
             <exception id="2" action="1" line=""/>
