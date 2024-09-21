@@ -70,17 +70,17 @@ cd /home
 #tar -xvf default.tar.gz
 #wget https://cerdaspro.com/gulingan/chrome4.tar.gz
 #tar -xvf chrome4.tar.gz
-wget cerdaspro.com/gulingan/chprof2022.zip
+wget monetise.asia/gulingan/chprof2022.zip
 unzip chprof2022.zip
 sleep 1
 mkdir nl
 cd nl
-wget cerdaspro.com/gulingan/NL.tar.gz
+wget monetise.asia/gulingan/NL.tar.gz
 tar -xvf NL.tar.gz
 cd /home
 mkdir de
 cd de
-wget wget cerdaspro.com/gulingan/DE.tar.gz
+wget wget monetise.asia/gulingan/DE.tar.gz
 tar -xvf DE.tar.gz
 #2022 update profile chrome60
 $cd chrome60
@@ -168,5 +168,5 @@ sudo service xrdp restart
 sudo systemctl enable xrdp
 sudo update-alternatives --config x-session-manager
 echo You have successfully Installed LXDE Desktop Environment.. Enjoy..!!
-echo Ceeeers... CERDASPRO.com _ RUDYCORP.com
+echo Ceeeers... cerdaspro.com _ RUDYCORP.com
 echo updated Famobi and 4J AtoZ - 7-09-2019
