@@ -6,7 +6,7 @@ rm -rf /home/chrome60/Default/Cache/*
 find /root/Downloads -type f -name '.*' -exec rm {} +
 rm -rf  /home/chrome60/BrowserMetrics
 termdown 2
- google-chrome --user-data-dir=/home/chrome60 https://cerdaspro.com/login --start-maximized --no-sandbox --incognito & sleep 5
+ google-chrome --user-data-dir=/home/chrome60 https://leonigame.online/autoplay --start-maximized --no-sandbox --incognito & sleep 5
  google-chrome --user-data-dir=/home/chrome60 https://rudgames.com/ --start-maximized --no-sandbox --incognito & sleep 1
 clear
 termdown 17
