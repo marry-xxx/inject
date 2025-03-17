@@ -3,9 +3,9 @@
     <settings program="actiona" version="3.10.1" scriptVersion="1.1.0" os="GNU/Linux"/>
     <actions>
         <action name="ActionPause" version="1.0.0"/>
-        <action name="ActionWheel" version="1.0.0"/>
-        <action name="ActionClick" version="1.0.0"/>
         <action name="ActionMoveCursor" version="1.0.0"/>
+        <action name="ActionClick" version="1.0.0"/>
+        <action name="ActionWheel" version="1.0.0"/>
     </actions>
     <parameters/>
     <resources/>
@@ -367,7 +367,7 @@
             <exception id="1" action="0" line=""/>
             <exception id="2" action="1" line=""/>
             <parameter name="duration">
-                <subParameter name="value" code="0">5</subParameter>
+                <subParameter name="value" code="0">4</subParameter>
             </parameter>
             <parameter name="unit">
                 <subParameter name="value" code="0">seconds</subParameter>
@@ -508,7 +508,7 @@
             <exception id="1" action="0" line=""/>
             <exception id="2" action="1" line=""/>
             <parameter name="duration">
-                <subParameter name="value" code="0">10</subParameter>
+                <subParameter name="value" code="0">7</subParameter>
             </parameter>
             <parameter name="unit">
                 <subParameter name="value" code="0">seconds</subParameter>
@@ -531,14 +531,14 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">305:13</subParameter>
+                <subParameter name="value" code="0">708:708</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
                 <subParameter name="value" code="0"></subParameter>
             </parameter>
             <parameter name="restoreCursorPosition">
-                <subParameter name="value" code="0"></subParameter>
+                <subParameter name="value" code="0">false</subParameter>
             </parameter>
         </action>
         <action name="ActionClick" color="#ffaa7f" pauseBefore="200" pauseAfter="200">
