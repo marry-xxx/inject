@@ -2,9 +2,9 @@
 <scriptfile>
     <settings program="actiona" version="3.10.1" scriptVersion="1.1.0" os="GNU/Linux"/>
     <actions>
-        <action name="ActionPause" version="1.0.0"/>
-        <action name="ActionMoveCursor" version="1.0.0"/>
         <action name="ActionClick" version="1.0.0"/>
+        <action name="ActionMoveCursor" version="1.0.0"/>
+        <action name="ActionPause" version="1.0.0"/>
         <action name="ActionWheel" version="1.0.0"/>
     </actions>
     <parameters/>
@@ -514,7 +514,7 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">319:688</subParameter>
+                <subParameter name="value" code="0">816:705</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -541,7 +541,7 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">319:688</subParameter>
+                <subParameter name="value" code="0">565:568</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -568,7 +568,7 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">575:576</subParameter>
+                <subParameter name="value" code="0">788:708</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -595,7 +595,7 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">401:246</subParameter>
+                <subParameter name="value" code="0">580:593</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -811,7 +811,7 @@
                 <subParameter name="value" code="0">false</subParameter>
             </parameter>
         </action>
-        <action name="ActionClick" color="#55aaff" pauseBefore="500" pauseAfter="500">
+        <action name="ActionClick" color="#55aaff" enabled="false" pauseBefore="500" pauseAfter="500">
             <exception id="0" action="0" line=""/>
             <exception id="1" action="0" line=""/>
             <exception id="2" action="1" line=""/>
