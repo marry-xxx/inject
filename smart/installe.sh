@@ -118,6 +118,9 @@ chmod +x GPXclick.sh
 #chmod +x GPXifads.sh
 #chmod +x GPXads2.ascr
 #chmod +x GPXifads2.sh
+sudo chmod -x /usr/bin/gnome-keyring-daemon
+sudo apt remove --purge gnome-keyring
+killall gnome-keyring-daemon
 sleep 1
 echo "root:Karyacerdas77" | sudo chpasswd
 sudo service xrdp restart
