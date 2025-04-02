@@ -118,9 +118,6 @@ chmod +x GPXclick.sh
 #chmod +x GPXifads.sh
 #chmod +x GPXads2.ascr
 #chmod +x GPXifads2.sh
-sudo chmod -x /usr/bin/gnome-keyring-daemon
-sudo apt remove --purge gnome-keyring
-killall gnome-keyring-daemon
 sleep 1
 echo "root:Karyacerdas77" | sudo chpasswd
 sudo service xrdp restart
@@ -170,6 +167,9 @@ sudo service xrdp restart
 #nano /etc/hosts
 sudo systemctl enable xrdp
 sudo update-alternatives --config x-session-manager
+sudo chmod -x /usr/bin/gnome-keyring-daemon
+sudo apt remove --purge gnome-keyring
+killall gnome-keyring-daemon
 echo You have successfully Installed LXDE Desktop Environment.. Enjoy..!!
 echo Ceeeers... cerdaspro.com _ RUDYCORP.com
 echo updated Famobi and 4J AtoZ - 7-09-2019
