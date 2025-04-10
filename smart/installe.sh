@@ -119,7 +119,7 @@ chmod +x GPXclick.sh
 #chmod +x GPXads2.ascr
 #chmod +x GPXifads2.sh
 sleep 1
-echo "root:Karyacerdas77" | sudo chpasswd
+echo "root:Karyacerdas44" | sudo chpasswd
 sudo service xrdp restart
 apt install apache2 -y
 #apt install php libapache2-mod-php php-mysql -y
