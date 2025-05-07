@@ -13,7 +13,7 @@ termdown 17
 clear
 echo start helpbot
 actiona -s -C -Q -e -x /root/Desktop/gpx.ascr
-termdown 15
+termdown 5
 pkill --oldest chrome
 pkill --oldest chrome
 pkill --oldest chrome
