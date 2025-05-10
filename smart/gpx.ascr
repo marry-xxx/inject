@@ -2,10 +2,8 @@
 <scriptfile>
     <settings program="actiona" version="3.10.1" scriptVersion="1.1.0" os="GNU/Linux"/>
     <actions>
-        <action name="ActionPause" version="1.0.0"/>
         <action name="ActionClick" version="1.0.0"/>
-        <action name="ActionMoveCursor" version="1.0.0"/>
-        <action name="ActionWheel" version="1.0.0"/>
+        <action name="ActionPause" version="1.0.0"/>
     </actions>
     <parameters/>
     <resources/>
@@ -91,6 +89,17 @@
                 <subParameter name="value" code="0">false</subParameter>
             </parameter>
         </action>
+        <action name="ActionPause" color="#ffaa00">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="duration">
+                <subParameter name="value" code="0">5</subParameter>
+            </parameter>
+            <parameter name="unit">
+                <subParameter name="value" code="0">seconds</subParameter>
+            </parameter>
+        </action>
         <action name="ActionClick" pauseAfter="600">
             <exception id="0" action="0" line=""/>
             <exception id="1" action="0" line=""/>
@@ -108,7 +117,7 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">736:761</subParameter>
+                <subParameter name="value" code="0">725:601</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -116,6 +125,17 @@
             </parameter>
             <parameter name="restoreCursorPosition">
                 <subParameter name="value" code="0">false</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionPause" color="#ffaa00">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="duration">
+                <subParameter name="value" code="0">3</subParameter>
+            </parameter>
+            <parameter name="unit">
+                <subParameter name="value" code="0">seconds</subParameter>
             </parameter>
         </action>
         <action name="ActionClick" pauseAfter="900">
@@ -135,7 +155,7 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">389:20</subParameter>
+                <subParameter name="value" code="0">290:15</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -150,7 +170,7 @@
             <exception id="1" action="0" line=""/>
             <exception id="2" action="1" line=""/>
             <parameter name="duration">
-                <subParameter name="value" code="0">5</subParameter>
+                <subParameter name="value" code="0">3</subParameter>
             </parameter>
             <parameter name="unit">
                 <subParameter name="value" code="0">seconds</subParameter>
@@ -498,7 +518,7 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">605:20</subParameter>
+                <subParameter name="value" code="0">406:13</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -552,7 +572,7 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">1432:832</subParameter>
+                <subParameter name="value" code="0">1030:637</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
