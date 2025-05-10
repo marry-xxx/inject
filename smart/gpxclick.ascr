@@ -2,10 +2,8 @@
 <scriptfile>
     <settings program="actiona" version="3.10.1" scriptVersion="1.1.0" os="GNU/Linux"/>
     <actions>
-        <action name="ActionPause" version="1.0.0"/>
-        <action name="ActionWheel" version="1.0.0"/>
         <action name="ActionClick" version="1.0.0"/>
-        <action name="ActionMoveCursor" version="1.0.0"/>
+        <action name="ActionPause" version="1.0.0"/>
     </actions>
     <parameters/>
     <resources/>
@@ -54,7 +52,7 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">151:211</subParameter>
+                <subParameter name="value" code="0">691:701</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -81,7 +79,7 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">153:150</subParameter>
+                <subParameter name="value" code="0">708:653</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -91,12 +89,12 @@
                 <subParameter name="value" code="0">false</subParameter>
             </parameter>
         </action>
-        <action name="ActionPause" color="#ffff00">
+        <action name="ActionPause" color="#ffaa00">
             <exception id="0" action="0" line=""/>
             <exception id="1" action="0" line=""/>
             <exception id="2" action="1" line=""/>
             <parameter name="duration">
-                <subParameter name="value" code="0">3</subParameter>
+                <subParameter name="value" code="0">5</subParameter>
             </parameter>
             <parameter name="unit">
                 <subParameter name="value" code="0">seconds</subParameter>
@@ -119,7 +117,7 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">707:604</subParameter>
+                <subParameter name="value" code="0">725:601</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -127,6 +125,17 @@
             </parameter>
             <parameter name="restoreCursorPosition">
                 <subParameter name="value" code="0">false</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionPause" color="#ffaa00">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="duration">
+                <subParameter name="value" code="0">3</subParameter>
+            </parameter>
+            <parameter name="unit">
+                <subParameter name="value" code="0">seconds</subParameter>
             </parameter>
         </action>
         <action name="ActionClick" pauseAfter="900">
@@ -146,7 +155,7 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">375:19</subParameter>
+                <subParameter name="value" code="0">290:15</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
