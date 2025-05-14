@@ -2,10 +2,10 @@
 <scriptfile>
     <settings program="actiona" version="3.10.1" scriptVersion="1.1.0" os="GNU/Linux"/>
     <actions>
-        <action name="ActionFindImage" version="1.1.0"/>
         <action name="ActionClick" version="1.0.0"/>
         <action name="ActionCommand" version="1.0.0"/>
         <action name="ActionPause" version="1.0.0"/>
+        <action name="ActionFindImage" version="1.1.0"/>
     </actions>
     <parameters/>
     <resources>
@@ -175,7 +175,7 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">728:711</subParameter>
+                <subParameter name="value" code="0">730:670</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -538,7 +538,7 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">1431:464</subParameter>
+                <subParameter name="value" code="0">1432:520</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -565,7 +565,7 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">1434:726</subParameter>
+                <subParameter name="value" code="0">1435:782</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -1606,7 +1606,7 @@
                 <subParameter name="value" code="0">seconds</subParameter>
             </parameter>
         </action>
-    <action name="ActionClick" color="#00ff00" pauseBefore="500" pauseAfter="500">
+        <action name="ActionClick" color="#00ff00" pauseBefore="500" pauseAfter="500">
             <exception id="0" action="0" line=""/>
             <exception id="1" action="0" line=""/>
             <exception id="2" action="1" line=""/>
@@ -1833,7 +1833,7 @@
                 <subParameter name="value" code="0">seconds</subParameter>
             </parameter>
         </action>
-    <action name="ActionClick" color="#00ff00" pauseBefore="500" pauseAfter="500">
+        <action name="ActionClick" color="#00ff00" pauseBefore="500" pauseAfter="500">
             <exception id="0" action="0" line=""/>
             <exception id="1" action="0" line=""/>
             <exception id="2" action="1" line=""/>
@@ -1985,7 +1985,7 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">1431:464</subParameter>
+                <subParameter name="value" code="0">1433:414</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -2012,7 +2012,7 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">1434:726</subParameter>
+                <subParameter name="value" code="0">1435:664</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -2606,7 +2606,7 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">1431:464</subParameter>
+                <subParameter name="value" code="0">1434:273</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -2633,7 +2633,7 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">1434:726</subParameter>
+                <subParameter name="value" code="0">1435:620</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
