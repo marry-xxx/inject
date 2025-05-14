@@ -6,13 +6,13 @@ rm -rf /home/chrome60/Default/Cache/*
 find /root/Downloads -type f -name '.*' -exec rm {} +
 rm -rf  /home/chrome60/BrowserMetrics
 termdown 2
- google-chrome --user-data-dir=/home/chrome60 https://easlygame.com/ --start-maximized --no-sandbox --incognito & sleep 5
+ google-chrome --user-data-dir=/home/chrome60 https://rudgame.com/ --start-maximized --no-sandbox --incognito & sleep 5
  google-chrome --user-data-dir=/home/chrome60 https://rudgames.com/ --start-maximized --no-sandbox --incognito & sleep 1
 clear
 termdown 17
 clear
 echo start helpbot
-actiona -s -C -Q -e -x /root/Desktop/gpxnew.ascr
+actiona -s -C -Q -e -x /root/Desktop/gpnew.ascr
 termdown 7
 pkill --oldest chrome
 pkill --oldest chrome
