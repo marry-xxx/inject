@@ -96,7 +96,7 @@ wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/chrc.sh
 wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/link.sh
 #wget https://github.com/marry-xxx/inject/raw/main/smart/GPXNew.sh
 #wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/linkFIGPX.sh
-wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/play.png
+wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/playgd.png
 wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/playgpx22.png
 #chmod +x FIGPX.ascr
 #chmod +x GPXNew.sh
