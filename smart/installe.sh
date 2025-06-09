@@ -96,14 +96,19 @@ wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/chrc.sh
 wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/link.sh
 #wget https://github.com/marry-xxx/inject/raw/main/smart/GPXNew.sh
 #wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/linkFIGPX.sh
+wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/playgpx.png
+wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/playgpx2.png
 wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/playgd.png
-wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/playgpx22.png
+wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/play.png
 #chmod +x FIGPX.ascr
 #chmod +x GPXNew.sh
 #chmod +x linkFIGPX.sh
 chmod +x chrc.sh
 chmod +x link.sh
-chmod +x playgpx22.png
+chmod +x playgpx.png
+chmod +x playgpx2.png
+chmod +x playgd.png
+chmod +x play.png
 wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/gpx.ascr
 wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/GPXif.sh
 wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/gpxclick.ascr
