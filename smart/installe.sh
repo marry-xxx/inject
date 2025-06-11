@@ -118,7 +118,7 @@ wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/GPXclick.sh
 wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/gd.ascr
 wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/gpnew.ascr
 wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/gpnewklick.ascr
-wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/gpnewgd.ascr
+wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/newGD.ascr
 wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/gpxxif.sh
 #wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/gpxads.ascr
 #wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/GPXifads.sh
@@ -131,7 +131,7 @@ chmod +x GPXclick.sh
 chmod +x gd.ascr
 chmod +x gpnewklick.ascr
 chmod +x gpnewgp.ascr
-chmod +x gpnewgd.ascr
+chmod +x newGD.ascr
 chmod +x gpxxif.sh
 #chmod +x gpxads.ascr
 #chmod +x GPXifads.sh
