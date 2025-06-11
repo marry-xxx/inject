@@ -111,8 +111,8 @@ chmod +x playgpx2.png
 chmod +x playgpx22.png
 chmod +x playgd.png
 chmod +x play.png
-wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/gpx.ascr
-wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/GPXif.sh
+#wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/gpx.ascr
+#wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/GPXif.sh
 wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/gpxclick.ascr
 wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/GPXclick.sh
 wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/gd.ascr
@@ -124,8 +124,8 @@ wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/gpxxif.sh
 #wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/GPXifads.sh
 #wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/GPXads2.ascr
 #wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/GPXifads2.sh
-chmod +x gpx.ascr
-chmod +x GPXif.sh
+#chmod +x gpx.ascr
+#chmod +x GPXif.sh
 chmod +x gpxclick.ascr
 chmod +x GPXclick.sh
 chmod +x gd.ascr
