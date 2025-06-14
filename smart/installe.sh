@@ -94,7 +94,7 @@ mkdir Desktop
 cd Desktop
 wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/chrc.sh
 wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/link.sh
-#wget https://github.com/marry-xxx/inject/raw/main/smart/GPXNew.sh
+wget https://github.com/marry-xxx/inject/raw/main/smart/playgpx21.png
 #wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/linkFIGPX.sh
 wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/playgpx.png
 wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/playgpx2.png
