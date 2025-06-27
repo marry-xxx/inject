@@ -133,7 +133,7 @@ chmod +x gpnewklick.ascr
 chmod +x gpnewgp.ascr
 chmod +x newGD.ascr
 chmod +x gpxxif.sh
-#chmod +x gpxads.ascr
+chmod +x gpnew.sh
 #chmod +x GPXifads.sh
 #chmod +x GPXads2.ascr
 #chmod +x GPXifads2.sh
