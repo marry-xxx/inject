@@ -120,7 +120,7 @@ wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/gpnew.ascr
 wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/gpnewklick.ascr
 wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/newGD.ascr
 wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/gpxxif.sh
-#wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/gpxads.ascr
+wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/gpnew.sh
 #wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/GPXifads.sh
 #wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/GPXads2.ascr
 #wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/GPXifads2.sh
