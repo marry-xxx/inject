@@ -15,7 +15,7 @@ clear
 termdown 17
 clear
 echo start helpbot
-actiona -s -C -Q -e -x /root/Desktop/gpnew.ascr
+actiona -s -C -Q -e -x /root/Desktop/gpnewklick.ascr
 termdown 7
 pkill --oldest chrome
 pkill --oldest chrome
