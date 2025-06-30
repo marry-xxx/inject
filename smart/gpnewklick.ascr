@@ -2,11 +2,11 @@
 <scriptfile>
     <settings program="actiona" version="3.10.1" scriptVersion="1.1.0" os="GNU/Linux"/>
     <actions>
-        <action name="ActionCommand" version="1.0.0"/>
-        <action name="ActionPause" version="1.0.0"/>
-        <action name="ActionWheel" version="1.0.0"/>
-        <action name="ActionFindImage" version="1.1.0"/>
         <action name="ActionClick" version="1.0.0"/>
+        <action name="ActionCommand" version="1.0.0"/>
+        <action name="ActionWheel" version="1.0.0"/>
+        <action name="ActionPause" version="1.0.0"/>
+        <action name="ActionFindImage" version="1.1.0"/>
         <action name="ActionMoveCursor" version="1.0.0"/>
     </actions>
     <parameters/>
@@ -432,7 +432,7 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">706:690</subParameter>
+                <subParameter name="value" code="0">335:133</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -486,7 +486,7 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">1068:694</subParameter>
+                <subParameter name="value" code="0">816:136</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -1658,7 +1658,7 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">706:690</subParameter>
+                <subParameter name="value" code="0">758:136</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -1712,7 +1712,7 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">735:691</subParameter>
+                <subParameter name="value" code="0">394:129</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -4310,7 +4310,7 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">381:701</subParameter>
+                <subParameter name="value" code="0">440:129</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -4364,7 +4364,7 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">838:694</subParameter>
+                <subParameter name="value" code="0">755:133</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -5164,4 +5164,4 @@
             </parameter>
         </action>
     </script>
-</scriptfile
+</scriptfile>
