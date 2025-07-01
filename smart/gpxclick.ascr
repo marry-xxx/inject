@@ -2,7 +2,9 @@
 <scriptfile>
     <settings program="actiona" version="3.10.1" scriptVersion="1.1.0" os="GNU/Linux"/>
     <actions>
+        <action name="ActionMoveCursor" version="1.0.0"/>
         <action name="ActionClick" version="1.0.0"/>
+        <action name="ActionWheel" version="1.0.0"/>
         <action name="ActionPause" version="1.0.0"/>
     </actions>
     <parameters/>
@@ -35,7 +37,7 @@
                 <subParameter name="value" code="0">false</subParameter>
             </parameter>
         </action>
-        <action name="ActionClick" pauseAfter="600">
+        <action name="ActionClick" enabled="false" pauseAfter="600">
             <exception id="0" action="0" line=""/>
             <exception id="1" action="0" line=""/>
             <exception id="2" action="1" line=""/>
@@ -62,7 +64,7 @@
                 <subParameter name="value" code="0">false</subParameter>
             </parameter>
         </action>
-        <action name="ActionClick" pauseAfter="600">
+        <action name="ActionClick" enabled="false" pauseAfter="600">
             <exception id="0" action="0" line=""/>
             <exception id="1" action="0" line=""/>
             <exception id="2" action="1" line=""/>
@@ -117,7 +119,7 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">725:601</subParameter>
+                <subParameter name="value" code="0">758:535</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
