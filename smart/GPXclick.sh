@@ -2,13 +2,10 @@
 printf '\033]2;helpbot\a'
 while :
 do
-rm -rf /home/chrome60 & termdown 3
-cd /home
-zip_files=(*.zip)
-random_zip=${zip_files[RANDOM % ${#zip_files[@]}]}
-echo "Extracting file: $random_zip"
-unzip -o "$random_zip"
-clear
+rm -rf /home/chrome60/Default/Cache/*
+find /root/Downloads -type f -name '.*' -exec rm {} +
+rm -rf  /home/chrome60/BrowserMetrics
+termdown 2
  google-chrome --user-data-dir=/home/chrome60 https://syahgame.com/ --start-maximized --no-sandbox --incognito & sleep 5
  google-chrome --user-data-dir=/home/chrome60 https://rudgame.com/ --start-maximized --no-sandbox --incognito & sleep 1
 clear
