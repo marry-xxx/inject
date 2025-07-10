@@ -2,12 +2,12 @@
 <scriptfile>
     <settings program="actiona" version="3.10.1" scriptVersion="1.1.0" os="GNU/Linux"/>
     <actions>
-        <action name="ActionWheel" version="1.0.0"/>
         <action name="ActionFindImage" version="1.1.0"/>
         <action name="ActionClick" version="1.0.0"/>
         <action name="ActionMoveCursor" version="1.0.0"/>
         <action name="ActionCommand" version="1.0.0"/>
         <action name="ActionPause" version="1.0.0"/>
+        <action name="ActionWheel" version="1.0.0"/>
     </actions>
     <parameters/>
     <resources>
@@ -530,7 +530,7 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">319:688</subParameter>
+                <subParameter name="value" code="0">1093:680</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -557,7 +557,7 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">418:131</subParameter>
+                <subParameter name="value" code="0">335:133</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -584,7 +584,7 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">852:131</subParameter>
+                <subParameter name="value" code="0">713:678</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -611,142 +611,7 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">1132:135</subParameter>
-            </parameter>
-            <parameter name="positionOffset">
-                <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0"></subParameter>
-            </parameter>
-            <parameter name="restoreCursorPosition">
-                <subParameter name="value" code="0">false</subParameter>
-            </parameter>
-        </action>
-        <action name="ActionClick" color="#00ff00" pauseBefore="500" pauseAfter="500">
-            <exception id="0" action="0" line=""/>
-            <exception id="1" action="0" line=""/>
-            <exception id="2" action="1" line=""/>
-            <exception id="32" action="0" line=""/>
-            <exception id="33" action="0" line=""/>
-            <parameter name="action">
-                <subParameter name="value" code="0">pressRelease</subParameter>
-            </parameter>
-            <parameter name="amount">
-                <subParameter name="value" code="0">1</subParameter>
-            </parameter>
-            <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
-            </parameter>
-            <parameter name="position">
-                <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">816:705</subParameter>
-            </parameter>
-            <parameter name="positionOffset">
-                <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0"></subParameter>
-            </parameter>
-            <parameter name="restoreCursorPosition">
-                <subParameter name="value" code="0">false</subParameter>
-            </parameter>
-        </action>
-        <action name="ActionClick" color="#00ff00" pauseBefore="500" pauseAfter="500">
-            <exception id="0" action="0" line=""/>
-            <exception id="1" action="0" line=""/>
-            <exception id="2" action="1" line=""/>
-            <exception id="32" action="0" line=""/>
-            <exception id="33" action="0" line=""/>
-            <parameter name="action">
-                <subParameter name="value" code="0">pressRelease</subParameter>
-            </parameter>
-            <parameter name="amount">
-                <subParameter name="value" code="0">1</subParameter>
-            </parameter>
-            <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
-            </parameter>
-            <parameter name="position">
-                <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">565:568</subParameter>
-            </parameter>
-            <parameter name="positionOffset">
-                <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0"></subParameter>
-            </parameter>
-            <parameter name="restoreCursorPosition">
-                <subParameter name="value" code="0">false</subParameter>
-            </parameter>
-        </action>
-        <action name="ActionClick" color="#00ff00" pauseBefore="500" pauseAfter="500">
-            <exception id="0" action="0" line=""/>
-            <exception id="1" action="0" line=""/>
-            <exception id="2" action="1" line=""/>
-            <exception id="32" action="0" line=""/>
-            <exception id="33" action="0" line=""/>
-            <parameter name="action">
-                <subParameter name="value" code="0">pressRelease</subParameter>
-            </parameter>
-            <parameter name="amount">
-                <subParameter name="value" code="0">1</subParameter>
-            </parameter>
-            <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
-            </parameter>
-            <parameter name="position">
-                <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">788:708</subParameter>
-            </parameter>
-            <parameter name="positionOffset">
-                <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0"></subParameter>
-            </parameter>
-            <parameter name="restoreCursorPosition">
-                <subParameter name="value" code="0">false</subParameter>
-            </parameter>
-        </action>
-        <action name="ActionClick" color="#00ff00" pauseBefore="500" pauseAfter="500">
-            <exception id="0" action="0" line=""/>
-            <exception id="1" action="0" line=""/>
-            <exception id="2" action="1" line=""/>
-            <exception id="32" action="0" line=""/>
-            <exception id="33" action="0" line=""/>
-            <parameter name="action">
-                <subParameter name="value" code="0">pressRelease</subParameter>
-            </parameter>
-            <parameter name="amount">
-                <subParameter name="value" code="0">1</subParameter>
-            </parameter>
-            <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
-            </parameter>
-            <parameter name="position">
-                <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">780:732</subParameter>
-            </parameter>
-            <parameter name="positionOffset">
-                <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0"></subParameter>
-            </parameter>
-            <parameter name="restoreCursorPosition">
-                <subParameter name="value" code="0">false</subParameter>
-            </parameter>
-        </action>
-        <action name="ActionClick" color="#00ff00" pauseBefore="500" pauseAfter="500">
-            <exception id="0" action="0" line=""/>
-            <exception id="1" action="0" line=""/>
-            <exception id="2" action="1" line=""/>
-            <exception id="32" action="0" line=""/>
-            <exception id="33" action="0" line=""/>
-            <parameter name="action">
-                <subParameter name="value" code="0">pressRelease</subParameter>
-            </parameter>
-            <parameter name="amount">
-                <subParameter name="value" code="0">1</subParameter>
-            </parameter>
-            <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
-            </parameter>
-            <parameter name="position">
-                <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">392:280</subParameter>
+                <subParameter name="value" code="0">816:136</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -761,35 +626,13 @@
             <exception id="1" action="0" line=""/>
             <exception id="2" action="1" line=""/>
             <parameter name="duration">
-                <subParameter name="value" code="0">1</subParameter>
+                <subParameter name="value" code="0">5</subParameter>
             </parameter>
             <parameter name="unit">
                 <subParameter name="value" code="0">seconds</subParameter>
             </parameter>
         </action>
-        <action name="ActionMoveCursor" color="#00ffff" pauseAfter="1000">
-            <exception id="0" action="0" line=""/>
-            <exception id="1" action="0" line=""/>
-            <exception id="2" action="1" line=""/>
-            <parameter name="position">
-                <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">839:544</subParameter>
-            </parameter>
-            <parameter name="positionOffset">
-                <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0"></subParameter>
-            </parameter>
-        </action>
-        <action name="ActionWheel" comment="-15" color="#000000" timeout="3000">
-            <exception id="0" action="0" line=""/>
-            <exception id="1" action="0" line=""/>
-            <exception id="2" action="1" line=""/>
-            <exception id="32" action="0" line=""/>
-            <parameter name="intensity">
-                <subParameter name="value" code="0">-15</subParameter>
-            </parameter>
-        </action>
-        <action name="ActionClick" color="#aa55ff" pauseBefore="500" pauseAfter="500">
+        <action name="ActionClick" color="#aa00ff" pauseBefore="500" pauseAfter="500">
             <exception id="0" action="0" line=""/>
             <exception id="1" action="0" line=""/>
             <exception id="2" action="1" line=""/>
@@ -806,7 +649,7 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">560:453</subParameter>
+                <subParameter name="value" code="0">441:577</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -816,7 +659,7 @@
                 <subParameter name="value" code="0">false</subParameter>
             </parameter>
         </action>
-        <action name="ActionClick" color="#aa55ff" pauseBefore="500" pauseAfter="500">
+        <action name="ActionClick" color="#aa00ff" pauseBefore="500" pauseAfter="500">
             <exception id="0" action="0" line=""/>
             <exception id="1" action="0" line=""/>
             <exception id="2" action="1" line=""/>
@@ -833,7 +676,7 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">610:584</subParameter>
+                <subParameter name="value" code="0">333:360</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -843,7 +686,7 @@
                 <subParameter name="value" code="0">false</subParameter>
             </parameter>
         </action>
-        <action name="ActionClick" color="#aa55ff" pauseBefore="500" pauseAfter="500">
+        <action name="ActionClick" color="#aa00ff" pauseBefore="500" pauseAfter="500">
             <exception id="0" action="0" line=""/>
             <exception id="1" action="0" line=""/>
             <exception id="2" action="1" line=""/>
@@ -860,7 +703,7 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">411:486</subParameter>
+                <subParameter name="value" code="0">642:462</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -868,6 +711,109 @@
             </parameter>
             <parameter name="restoreCursorPosition">
                 <subParameter name="value" code="0">false</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" color="#aa00ff" pauseBefore="500" pauseAfter="500">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0">787:563</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="restoreCursorPosition">
+                <subParameter name="value" code="0">false</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0">535:635</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="restoreCursorPosition">
+                <subParameter name="value" code="0">false</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionPause" enabled="false">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="duration">
+                <subParameter name="value" code="0">5</subParameter>
+            </parameter>
+            <parameter name="unit">
+                <subParameter name="value" code="0">seconds</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0">246:211</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="restoreCursorPosition">
+                <subParameter name="value" code="0">false</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionPause">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="duration">
+                <subParameter name="value" code="0">3</subParameter>
+            </parameter>
+            <parameter name="unit">
+                <subParameter name="value" code="0">seconds</subParameter>
             </parameter>
         </action>
         <action name="ActionClick" color="#55aaff" enabled="false" pauseBefore="500" pauseAfter="500">
@@ -924,7 +870,7 @@
                 <subParameter name="value" code="0">false</subParameter>
             </parameter>
         </action>
-        <action name="ActionClick" color="#ffaa7f" enabled="false" pauseBefore="200" pauseAfter="200">
+        <action name="ActionClick" color="#ffaa7f" pauseBefore="200" pauseAfter="200">
             <exception id="0" action="0" line=""/>
             <exception id="1" action="0" line=""/>
             <exception id="2" action="1" line=""/>
@@ -941,61 +887,7 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">577:520</subParameter>
-            </parameter>
-            <parameter name="positionOffset">
-                <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0"></subParameter>
-            </parameter>
-            <parameter name="restoreCursorPosition">
-                <subParameter name="value" code="0">false</subParameter>
-            </parameter>
-        </action>
-        <action name="ActionClick" color="#ffaa7f" enabled="false" pauseBefore="200" pauseAfter="200">
-            <exception id="0" action="0" line=""/>
-            <exception id="1" action="0" line=""/>
-            <exception id="2" action="1" line=""/>
-            <exception id="32" action="0" line=""/>
-            <exception id="33" action="0" line=""/>
-            <parameter name="action">
-                <subParameter name="value" code="0">pressRelease</subParameter>
-            </parameter>
-            <parameter name="amount">
-                <subParameter name="value" code="0">1</subParameter>
-            </parameter>
-            <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
-            </parameter>
-            <parameter name="position">
-                <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">514:620</subParameter>
-            </parameter>
-            <parameter name="positionOffset">
-                <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0"></subParameter>
-            </parameter>
-            <parameter name="restoreCursorPosition">
-                <subParameter name="value" code="0">false</subParameter>
-            </parameter>
-        </action>
-        <action name="ActionClick" color="#ffaa7f" enabled="false" pauseBefore="200" pauseAfter="200">
-            <exception id="0" action="0" line=""/>
-            <exception id="1" action="0" line=""/>
-            <exception id="2" action="1" line=""/>
-            <exception id="32" action="0" line=""/>
-            <exception id="33" action="0" line=""/>
-            <parameter name="action">
-                <subParameter name="value" code="0">pressRelease</subParameter>
-            </parameter>
-            <parameter name="amount">
-                <subParameter name="value" code="0">1</subParameter>
-            </parameter>
-            <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
-            </parameter>
-            <parameter name="position">
-                <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">234:645</subParameter>
+                <subParameter name="value" code="0">503:357</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -1022,7 +914,61 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">636:449</subParameter>
+                <subParameter name="value" code="0">612:426</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="restoreCursorPosition">
+                <subParameter name="value" code="0">false</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" color="#ffaa7f" pauseBefore="200" pauseAfter="200">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0">773:368</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="restoreCursorPosition">
+                <subParameter name="value" code="0">false</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" color="#ffaa7f" pauseBefore="200" pauseAfter="200">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0">484:335</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -1124,7 +1070,7 @@
                 <subParameter name="value" code="0">seconds</subParameter>
             </parameter>
         </action>
-        <action name="ActionMoveCursor" color="#00ffff" enabled="false" pauseAfter="1000">
+        <action name="ActionMoveCursor" color="#00ffff" pauseAfter="1000">
             <exception id="0" action="0" line=""/>
             <exception id="1" action="0" line=""/>
             <exception id="2" action="1" line=""/>
@@ -1384,6 +1330,17 @@
             </parameter>
             <parameter name="restoreCursorPosition">
                 <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionPause">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="duration">
+                <subParameter name="value" code="0">5</subParameter>
+            </parameter>
+            <parameter name="unit">
+                <subParameter name="value" code="0">seconds</subParameter>
             </parameter>
         </action>
         <action name="ActionMoveCursor" color="#00ffff" enabled="false" pauseAfter="1000">
@@ -1810,7 +1767,7 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">1132:135</subParameter>
+                <subParameter name="value" code="0">381:701</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -1837,7 +1794,7 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">319:688</subParameter>
+                <subParameter name="value" code="0">758:136</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -1864,7 +1821,7 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">418:131</subParameter>
+                <subParameter name="value" code="0">285:336</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -1891,142 +1848,7 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">852:131</subParameter>
-            </parameter>
-            <parameter name="positionOffset">
-                <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0"></subParameter>
-            </parameter>
-            <parameter name="restoreCursorPosition">
-                <subParameter name="value" code="0">false</subParameter>
-            </parameter>
-        </action>
-        <action name="ActionClick" color="#00ff00" pauseBefore="500" pauseAfter="500">
-            <exception id="0" action="0" line=""/>
-            <exception id="1" action="0" line=""/>
-            <exception id="2" action="1" line=""/>
-            <exception id="32" action="0" line=""/>
-            <exception id="33" action="0" line=""/>
-            <parameter name="action">
-                <subParameter name="value" code="0">pressRelease</subParameter>
-            </parameter>
-            <parameter name="amount">
-                <subParameter name="value" code="0">1</subParameter>
-            </parameter>
-            <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
-            </parameter>
-            <parameter name="position">
-                <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">816:705</subParameter>
-            </parameter>
-            <parameter name="positionOffset">
-                <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0"></subParameter>
-            </parameter>
-            <parameter name="restoreCursorPosition">
-                <subParameter name="value" code="0">false</subParameter>
-            </parameter>
-        </action>
-        <action name="ActionClick" color="#00ff00" pauseBefore="500" pauseAfter="500">
-            <exception id="0" action="0" line=""/>
-            <exception id="1" action="0" line=""/>
-            <exception id="2" action="1" line=""/>
-            <exception id="32" action="0" line=""/>
-            <exception id="33" action="0" line=""/>
-            <parameter name="action">
-                <subParameter name="value" code="0">pressRelease</subParameter>
-            </parameter>
-            <parameter name="amount">
-                <subParameter name="value" code="0">1</subParameter>
-            </parameter>
-            <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
-            </parameter>
-            <parameter name="position">
-                <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">565:568</subParameter>
-            </parameter>
-            <parameter name="positionOffset">
-                <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0"></subParameter>
-            </parameter>
-            <parameter name="restoreCursorPosition">
-                <subParameter name="value" code="0">false</subParameter>
-            </parameter>
-        </action>
-        <action name="ActionClick" color="#00ff00" pauseBefore="500" pauseAfter="500">
-            <exception id="0" action="0" line=""/>
-            <exception id="1" action="0" line=""/>
-            <exception id="2" action="1" line=""/>
-            <exception id="32" action="0" line=""/>
-            <exception id="33" action="0" line=""/>
-            <parameter name="action">
-                <subParameter name="value" code="0">pressRelease</subParameter>
-            </parameter>
-            <parameter name="amount">
-                <subParameter name="value" code="0">1</subParameter>
-            </parameter>
-            <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
-            </parameter>
-            <parameter name="position">
-                <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">788:708</subParameter>
-            </parameter>
-            <parameter name="positionOffset">
-                <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0"></subParameter>
-            </parameter>
-            <parameter name="restoreCursorPosition">
-                <subParameter name="value" code="0">false</subParameter>
-            </parameter>
-        </action>
-        <action name="ActionClick" color="#00ff00" pauseBefore="500" pauseAfter="500">
-            <exception id="0" action="0" line=""/>
-            <exception id="1" action="0" line=""/>
-            <exception id="2" action="1" line=""/>
-            <exception id="32" action="0" line=""/>
-            <exception id="33" action="0" line=""/>
-            <parameter name="action">
-                <subParameter name="value" code="0">pressRelease</subParameter>
-            </parameter>
-            <parameter name="amount">
-                <subParameter name="value" code="0">1</subParameter>
-            </parameter>
-            <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
-            </parameter>
-            <parameter name="position">
-                <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">780:732</subParameter>
-            </parameter>
-            <parameter name="positionOffset">
-                <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0"></subParameter>
-            </parameter>
-            <parameter name="restoreCursorPosition">
-                <subParameter name="value" code="0">false</subParameter>
-            </parameter>
-        </action>
-        <action name="ActionClick" color="#00ff00" pauseBefore="500" pauseAfter="500">
-            <exception id="0" action="0" line=""/>
-            <exception id="1" action="0" line=""/>
-            <exception id="2" action="1" line=""/>
-            <exception id="32" action="0" line=""/>
-            <exception id="33" action="0" line=""/>
-            <parameter name="action">
-                <subParameter name="value" code="0">pressRelease</subParameter>
-            </parameter>
-            <parameter name="amount">
-                <subParameter name="value" code="0">1</subParameter>
-            </parameter>
-            <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
-            </parameter>
-            <parameter name="position">
-                <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">392:280</subParameter>
+                <subParameter name="value" code="0">394:129</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -2041,35 +1863,13 @@
             <exception id="1" action="0" line=""/>
             <exception id="2" action="1" line=""/>
             <parameter name="duration">
-                <subParameter name="value" code="0">1</subParameter>
+                <subParameter name="value" code="0">5</subParameter>
             </parameter>
             <parameter name="unit">
                 <subParameter name="value" code="0">seconds</subParameter>
             </parameter>
         </action>
-        <action name="ActionMoveCursor" color="#00ffff" enabled="false" pauseAfter="1000">
-            <exception id="0" action="0" line=""/>
-            <exception id="1" action="0" line=""/>
-            <exception id="2" action="1" line=""/>
-            <parameter name="position">
-                <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">839:544</subParameter>
-            </parameter>
-            <parameter name="positionOffset">
-                <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0"></subParameter>
-            </parameter>
-        </action>
-        <action name="ActionWheel" comment="-15" color="#000000" enabled="false" timeout="3000">
-            <exception id="0" action="0" line=""/>
-            <exception id="1" action="0" line=""/>
-            <exception id="2" action="1" line=""/>
-            <exception id="32" action="0" line=""/>
-            <parameter name="intensity">
-                <subParameter name="value" code="0">-15</subParameter>
-            </parameter>
-        </action>
-        <action name="ActionClick" color="#aa55ff" pauseBefore="500" pauseAfter="500">
+        <action name="ActionClick" color="#aa00ff" pauseBefore="500" pauseAfter="500">
             <exception id="0" action="0" line=""/>
             <exception id="1" action="0" line=""/>
             <exception id="2" action="1" line=""/>
@@ -2086,7 +1886,7 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">451:96</subParameter>
+                <subParameter name="value" code="0">481:280</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -2096,7 +1896,7 @@
                 <subParameter name="value" code="0">false</subParameter>
             </parameter>
         </action>
-        <action name="ActionClick" color="#aa55ff" pauseBefore="500" pauseAfter="500">
+        <action name="ActionClick" color="#aa00ff" pauseBefore="500" pauseAfter="500">
             <exception id="0" action="0" line=""/>
             <exception id="1" action="0" line=""/>
             <exception id="2" action="1" line=""/>
@@ -2113,7 +1913,7 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">344:174</subParameter>
+                <subParameter name="value" code="0">447:490</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -2123,7 +1923,7 @@
                 <subParameter name="value" code="0">false</subParameter>
             </parameter>
         </action>
-        <action name="ActionClick" color="#aa55ff" pauseBefore="500" pauseAfter="500">
+        <action name="ActionClick" color="#aa00ff" pauseBefore="500" pauseAfter="500">
             <exception id="0" action="0" line=""/>
             <exception id="1" action="0" line=""/>
             <exception id="2" action="1" line=""/>
@@ -2140,7 +1940,99 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">388:505</subParameter>
+                <subParameter name="value" code="0">585:294</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="restoreCursorPosition">
+                <subParameter name="value" code="0">false</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" color="#aa00ff" pauseBefore="500" pauseAfter="500">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0">514:643</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="restoreCursorPosition">
+                <subParameter name="value" code="0">false</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0">262:740</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="restoreCursorPosition">
+                <subParameter name="value" code="0">false</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionPause">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="duration">
+                <subParameter name="value" code="0">5</subParameter>
+            </parameter>
+            <parameter name="unit">
+                <subParameter name="value" code="0">seconds</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0">246:211</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -2161,7 +2053,7 @@
                 <subParameter name="value" code="0">seconds</subParameter>
             </parameter>
         </action>
-        <action name="ActionClick" color="#55aaff" enabled="false" pauseBefore="500" pauseAfter="500">
+        <action name="ActionClick" color="#55aaff" pauseBefore="500" pauseAfter="500">
             <exception id="0" action="0" line=""/>
             <exception id="1" action="0" line=""/>
             <exception id="2" action="1" line=""/>
@@ -2215,7 +2107,7 @@
                 <subParameter name="value" code="0">false</subParameter>
             </parameter>
         </action>
-        <action name="ActionClick" color="#ffaa7f" enabled="false" pauseBefore="200" pauseAfter="200">
+        <action name="ActionClick" color="#ffaa7f" pauseBefore="200" pauseAfter="200">
             <exception id="0" action="0" line=""/>
             <exception id="1" action="0" line=""/>
             <exception id="2" action="1" line=""/>
@@ -2415,7 +2307,7 @@
                 <subParameter name="value" code="0">seconds</subParameter>
             </parameter>
         </action>
-        <action name="ActionMoveCursor" color="#00ffff" enabled="false" pauseAfter="1000">
+        <action name="ActionMoveCursor" color="#00ffff" pauseAfter="1000">
             <exception id="0" action="0" line=""/>
             <exception id="1" action="0" line=""/>
             <exception id="2" action="1" line=""/>
@@ -2428,7 +2320,7 @@
                 <subParameter name="value" code="0"></subParameter>
             </parameter>
         </action>
-        <action name="ActionWheel" comment="-15" color="#000000" enabled="false" timeout="3000">
+        <action name="ActionWheel" comment="-15" color="#000000" timeout="3000">
             <exception id="0" action="0" line=""/>
             <exception id="1" action="0" line=""/>
             <exception id="2" action="1" line=""/>
@@ -2437,7 +2329,7 @@
                 <subParameter name="value" code="0">-15</subParameter>
             </parameter>
         </action>
-        <action name="ActionPause" enabled="false">
+        <action name="ActionPause">
             <exception id="0" action="0" line=""/>
             <exception id="1" action="0" line=""/>
             <exception id="2" action="1" line=""/>
@@ -2542,7 +2434,7 @@
                 <subParameter name="value" code="0"></subParameter>
             </parameter>
         </action>
-        <action name="ActionClick" color="#ffaa7f" enabled="false" pauseBefore="200" pauseAfter="200">
+        <action name="ActionClick" color="#ffaa7f" pauseBefore="200" pauseAfter="200">
             <exception id="0" action="0" line=""/>
             <exception id="1" action="0" line=""/>
             <exception id="2" action="1" line=""/>
@@ -2569,7 +2461,7 @@
                 <subParameter name="value" code="0"></subParameter>
             </parameter>
         </action>
-        <action name="ActionClick" color="#ffaa7f" enabled="false" pauseBefore="200" pauseAfter="200">
+        <action name="ActionClick" color="#ffaa7f" pauseBefore="200" pauseAfter="200">
             <exception id="0" action="0" line=""/>
             <exception id="1" action="0" line=""/>
             <exception id="2" action="1" line=""/>
@@ -2677,12 +2569,25 @@
                 <subParameter name="value" code="0"></subParameter>
             </parameter>
         </action>
-        <action name="ActionPause" color="#00ffff">
+        <action name="ActionMoveCursor" color="#00ffff" pauseAfter="1000">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0">839:544</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionPause">
             <exception id="0" action="0" line=""/>
             <exception id="1" action="0" line=""/>
             <exception id="2" action="1" line=""/>
             <parameter name="duration">
-                <subParameter name="value" code="0">3</subParameter>
+                <subParameter name="value" code="0">5</subParameter>
             </parameter>
             <parameter name="unit">
                 <subParameter name="value" code="0">seconds</subParameter>
@@ -3099,7 +3004,7 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">1132:135</subParameter>
+                <subParameter name="value" code="0">381:701</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -3126,7 +3031,7 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">319:688</subParameter>
+                <subParameter name="value" code="0">706:690</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -3153,7 +3058,7 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">816:705</subParameter>
+                <subParameter name="value" code="0">838:694</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -3180,142 +3085,7 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">565:568</subParameter>
-            </parameter>
-            <parameter name="positionOffset">
-                <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0"></subParameter>
-            </parameter>
-            <parameter name="restoreCursorPosition">
-                <subParameter name="value" code="0">false</subParameter>
-            </parameter>
-        </action>
-        <action name="ActionClick" color="#00ff00" pauseBefore="500" pauseAfter="500">
-            <exception id="0" action="0" line=""/>
-            <exception id="1" action="0" line=""/>
-            <exception id="2" action="1" line=""/>
-            <exception id="32" action="0" line=""/>
-            <exception id="33" action="0" line=""/>
-            <parameter name="action">
-                <subParameter name="value" code="0">pressRelease</subParameter>
-            </parameter>
-            <parameter name="amount">
-                <subParameter name="value" code="0">1</subParameter>
-            </parameter>
-            <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
-            </parameter>
-            <parameter name="position">
-                <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">788:708</subParameter>
-            </parameter>
-            <parameter name="positionOffset">
-                <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0"></subParameter>
-            </parameter>
-            <parameter name="restoreCursorPosition">
-                <subParameter name="value" code="0">false</subParameter>
-            </parameter>
-        </action>
-        <action name="ActionClick" color="#00ff00" pauseBefore="500" pauseAfter="500">
-            <exception id="0" action="0" line=""/>
-            <exception id="1" action="0" line=""/>
-            <exception id="2" action="1" line=""/>
-            <exception id="32" action="0" line=""/>
-            <exception id="33" action="0" line=""/>
-            <parameter name="action">
-                <subParameter name="value" code="0">pressRelease</subParameter>
-            </parameter>
-            <parameter name="amount">
-                <subParameter name="value" code="0">1</subParameter>
-            </parameter>
-            <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
-            </parameter>
-            <parameter name="position">
-                <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">418:131</subParameter>
-            </parameter>
-            <parameter name="positionOffset">
-                <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0"></subParameter>
-            </parameter>
-            <parameter name="restoreCursorPosition">
-                <subParameter name="value" code="0">false</subParameter>
-            </parameter>
-        </action>
-        <action name="ActionClick" color="#00ff00" pauseBefore="500" pauseAfter="500">
-            <exception id="0" action="0" line=""/>
-            <exception id="1" action="0" line=""/>
-            <exception id="2" action="1" line=""/>
-            <exception id="32" action="0" line=""/>
-            <exception id="33" action="0" line=""/>
-            <parameter name="action">
-                <subParameter name="value" code="0">pressRelease</subParameter>
-            </parameter>
-            <parameter name="amount">
-                <subParameter name="value" code="0">1</subParameter>
-            </parameter>
-            <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
-            </parameter>
-            <parameter name="position">
-                <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">852:131</subParameter>
-            </parameter>
-            <parameter name="positionOffset">
-                <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0"></subParameter>
-            </parameter>
-            <parameter name="restoreCursorPosition">
-                <subParameter name="value" code="0">false</subParameter>
-            </parameter>
-        </action>
-        <action name="ActionClick" color="#00ff00" pauseBefore="500" pauseAfter="500">
-            <exception id="0" action="0" line=""/>
-            <exception id="1" action="0" line=""/>
-            <exception id="2" action="1" line=""/>
-            <exception id="32" action="0" line=""/>
-            <exception id="33" action="0" line=""/>
-            <parameter name="action">
-                <subParameter name="value" code="0">pressRelease</subParameter>
-            </parameter>
-            <parameter name="amount">
-                <subParameter name="value" code="0">1</subParameter>
-            </parameter>
-            <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
-            </parameter>
-            <parameter name="position">
-                <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">780:732</subParameter>
-            </parameter>
-            <parameter name="positionOffset">
-                <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0"></subParameter>
-            </parameter>
-            <parameter name="restoreCursorPosition">
-                <subParameter name="value" code="0">false</subParameter>
-            </parameter>
-        </action>
-        <action name="ActionClick" color="#00ff00" pauseBefore="500" pauseAfter="500">
-            <exception id="0" action="0" line=""/>
-            <exception id="1" action="0" line=""/>
-            <exception id="2" action="1" line=""/>
-            <exception id="32" action="0" line=""/>
-            <exception id="33" action="0" line=""/>
-            <parameter name="action">
-                <subParameter name="value" code="0">pressRelease</subParameter>
-            </parameter>
-            <parameter name="amount">
-                <subParameter name="value" code="0">1</subParameter>
-            </parameter>
-            <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
-            </parameter>
-            <parameter name="position">
-                <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">392:280</subParameter>
+                <subParameter name="value" code="0">735:691</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -3330,35 +3100,13 @@
             <exception id="1" action="0" line=""/>
             <exception id="2" action="1" line=""/>
             <parameter name="duration">
-                <subParameter name="value" code="0">1</subParameter>
+                <subParameter name="value" code="0">5</subParameter>
             </parameter>
             <parameter name="unit">
                 <subParameter name="value" code="0">seconds</subParameter>
             </parameter>
         </action>
-        <action name="ActionMoveCursor" color="#00ffff" pauseAfter="1000">
-            <exception id="0" action="0" line=""/>
-            <exception id="1" action="0" line=""/>
-            <exception id="2" action="1" line=""/>
-            <parameter name="position">
-                <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">839:544</subParameter>
-            </parameter>
-            <parameter name="positionOffset">
-                <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0"></subParameter>
-            </parameter>
-        </action>
-        <action name="ActionWheel" comment="-15" color="#000000" enabled="false" timeout="3000">
-            <exception id="0" action="0" line=""/>
-            <exception id="1" action="0" line=""/>
-            <exception id="2" action="1" line=""/>
-            <exception id="32" action="0" line=""/>
-            <parameter name="intensity">
-                <subParameter name="value" code="0">-15</subParameter>
-            </parameter>
-        </action>
-        <action name="ActionClick" color="#aa55ff" pauseBefore="500" pauseAfter="500">
+        <action name="ActionClick" color="#aa00ff" pauseBefore="500" pauseAfter="500">
             <exception id="0" action="0" line=""/>
             <exception id="1" action="0" line=""/>
             <exception id="2" action="1" line=""/>
@@ -3375,7 +3123,7 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">344:688</subParameter>
+                <subParameter name="value" code="0">552:451</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -3385,7 +3133,7 @@
                 <subParameter name="value" code="0">false</subParameter>
             </parameter>
         </action>
-        <action name="ActionClick" color="#aa55ff" pauseBefore="500" pauseAfter="500">
+        <action name="ActionClick" color="#aa00ff" pauseBefore="500" pauseAfter="500">
             <exception id="0" action="0" line=""/>
             <exception id="1" action="0" line=""/>
             <exception id="2" action="1" line=""/>
@@ -3402,7 +3150,7 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">737:693</subParameter>
+                <subParameter name="value" code="0">503:522</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -3412,7 +3160,7 @@
                 <subParameter name="value" code="0">false</subParameter>
             </parameter>
         </action>
-        <action name="ActionClick" color="#aa55ff" pauseBefore="500" pauseAfter="500">
+        <action name="ActionClick" color="#aa00ff" pauseBefore="500" pauseAfter="500">
             <exception id="0" action="0" line=""/>
             <exception id="1" action="0" line=""/>
             <exception id="2" action="1" line=""/>
@@ -3429,7 +3177,34 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">1037:686</subParameter>
+                <subParameter name="value" code="0">658:545</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="restoreCursorPosition">
+                <subParameter name="value" code="0">false</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" color="#aa00ff" pauseBefore="500" pauseAfter="500">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0">965:280</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -3467,7 +3242,45 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">246:211</subParameter>
+                <subParameter name="value" code="0">564:499</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="restoreCursorPosition">
+                <subParameter name="value" code="0">false</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionPause">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="duration">
+                <subParameter name="value" code="0">5</subParameter>
+            </parameter>
+            <parameter name="unit">
+                <subParameter name="value" code="0">seconds</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0">788:440</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -3488,60 +3301,6 @@
                 <subParameter name="value" code="0">seconds</subParameter>
             </parameter>
         </action>
-        <action name="ActionClick" color="#55aaff" pauseBefore="500" pauseAfter="500">
-            <exception id="0" action="0" line=""/>
-            <exception id="1" action="0" line=""/>
-            <exception id="2" action="1" line=""/>
-            <exception id="32" action="0" line=""/>
-            <exception id="33" action="0" line=""/>
-            <parameter name="action">
-                <subParameter name="value" code="0">pressRelease</subParameter>
-            </parameter>
-            <parameter name="amount">
-                <subParameter name="value" code="0">1</subParameter>
-            </parameter>
-            <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
-            </parameter>
-            <parameter name="position">
-                <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">712:713</subParameter>
-            </parameter>
-            <parameter name="positionOffset">
-                <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0"></subParameter>
-            </parameter>
-            <parameter name="restoreCursorPosition">
-                <subParameter name="value" code="0">false</subParameter>
-            </parameter>
-        </action>
-        <action name="ActionClick" color="#55aaff" enabled="false" pauseBefore="500" pauseAfter="500">
-            <exception id="0" action="0" line=""/>
-            <exception id="1" action="0" line=""/>
-            <exception id="2" action="1" line=""/>
-            <exception id="32" action="0" line=""/>
-            <exception id="33" action="0" line=""/>
-            <parameter name="action">
-                <subParameter name="value" code="0">pressRelease</subParameter>
-            </parameter>
-            <parameter name="amount">
-                <subParameter name="value" code="0">1</subParameter>
-            </parameter>
-            <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
-            </parameter>
-            <parameter name="position">
-                <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">760:517</subParameter>
-            </parameter>
-            <parameter name="positionOffset">
-                <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0"></subParameter>
-            </parameter>
-            <parameter name="restoreCursorPosition">
-                <subParameter name="value" code="0">false</subParameter>
-            </parameter>
-        </action>
         <action name="ActionClick" color="#ffaa7f" pauseBefore="200" pauseAfter="200">
             <exception id="0" action="0" line=""/>
             <exception id="1" action="0" line=""/>
@@ -3559,7 +3318,7 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">577:520</subParameter>
+                <subParameter name="value" code="0">709:455</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -3755,7 +3514,7 @@
                 <subParameter name="value" code="0"></subParameter>
             </parameter>
         </action>
-        <action name="ActionWheel" comment="-15" color="#000000" timeout="3000">
+        <action name="ActionWheel" comment="-15" color="#000000" enabled="false" timeout="3000">
             <exception id="0" action="0" line=""/>
             <exception id="1" action="0" line=""/>
             <exception id="2" action="1" line=""/>
@@ -3764,7 +3523,7 @@
                 <subParameter name="value" code="0">-15</subParameter>
             </parameter>
         </action>
-        <action name="ActionPause">
+        <action name="ActionPause" enabled="false">
             <exception id="0" action="0" line=""/>
             <exception id="1" action="0" line=""/>
             <exception id="2" action="1" line=""/>
@@ -3795,7 +3554,7 @@
                 <subParameter name="value" code="0">seconds</subParameter>
             </parameter>
         </action>
-        <action name="ActionWheel" color="#00ffff" enabled="false" timeout="3000">
+        <action name="ActionWheel" color="#00ffff" timeout="3000">
             <exception id="0" action="0" line=""/>
             <exception id="1" action="0" line=""/>
             <exception id="2" action="1" line=""/>
@@ -3804,7 +3563,7 @@
                 <subParameter name="value" code="0">43</subParameter>
             </parameter>
         </action>
-        <action name="ActionPause" color="#00ffff" enabled="false">
+        <action name="ActionPause" color="#00ffff">
             <exception id="0" action="0" line=""/>
             <exception id="1" action="0" line=""/>
             <exception id="2" action="1" line=""/>
@@ -3869,7 +3628,7 @@
                 <subParameter name="value" code="0"></subParameter>
             </parameter>
         </action>
-        <action name="ActionClick" color="#ffaa7f" enabled="false" pauseBefore="200" pauseAfter="200">
+        <action name="ActionClick" color="#ffaa7f" pauseBefore="200" pauseAfter="200">
             <exception id="0" action="0" line=""/>
             <exception id="1" action="0" line=""/>
             <exception id="2" action="1" line=""/>
@@ -3896,7 +3655,7 @@
                 <subParameter name="value" code="0"></subParameter>
             </parameter>
         </action>
-        <action name="ActionClick" color="#ffaa7f" enabled="false" pauseBefore="200" pauseAfter="200">
+        <action name="ActionClick" color="#ffaa7f" pauseBefore="200" pauseAfter="200">
             <exception id="0" action="0" line=""/>
             <exception id="1" action="0" line=""/>
             <exception id="2" action="1" line=""/>
@@ -4017,12 +3776,12 @@
                 <subParameter name="value" code="0"></subParameter>
             </parameter>
         </action>
-        <action name="ActionPause" color="#00ffff" enabled="false">
+        <action name="ActionPause" enabled="false">
             <exception id="0" action="0" line=""/>
             <exception id="1" action="0" line=""/>
             <exception id="2" action="1" line=""/>
             <parameter name="duration">
-                <subParameter name="value" code="0">3</subParameter>
+                <subParameter name="value" code="0">5</subParameter>
             </parameter>
             <parameter name="unit">
                 <subParameter name="value" code="0">seconds</subParameter>
