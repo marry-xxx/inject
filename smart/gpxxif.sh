@@ -9,7 +9,7 @@ random_zip=${zip_files[RANDOM % ${#zip_files[@]}]}
 echo "Extracting file: $random_zip"
 unzip -o "$random_zip"
 clear
- google-chrome --user-data-dir=/home/chrome60 https://marriagame.com/autoplay --start-maximized --no-sandbox --incognito & sleep 5
+ google-chrome --user-data-dir=/home/chrome60 --start-maximized --no-sandbox --incognito & sleep 5
  google-chrome --user-data-dir=/home/chrome60 https://rudgame.com/ --start-maximized --no-sandbox --incognito & sleep 1
 clear
 termdown 17
