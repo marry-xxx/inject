@@ -113,27 +113,27 @@ chmod +x playgd.png
 chmod +x play.png
 #wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/gpx.ascr
 #wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/GPXif.sh
-wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/gpxclick.ascr
-wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/GPXclick.sh
-wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/gd.ascr
+#wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/gpxclick.ascr
+#wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/GPXclick.sh
+#wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/gd.ascr
 wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/gpnew.ascr
 wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/gpnewklick.ascr
-wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/newGD.ascr
+#wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/newGD.ascr
 wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/gpxxif.sh
-wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/gpnew.sh
+#wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/gpnew.sh
 #wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/GPXifads.sh
 #wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/GPXads2.ascr
 #wget https://raw.githubusercontent.com/marry-xxx/inject/main/smart/GPXifads2.sh
 #chmod +x gpx.ascr
 #chmod +x GPXif.sh
-chmod +x gpxclick.ascr
-chmod +x GPXclick.sh
-chmod +x gd.ascr
+#chmod +x gpxclick.ascr
+#chmod +x GPXclick.sh
+#chmod +x gd.ascr
 chmod +x gpnewklick.ascr
-chmod +x gpnewgp.ascr
-chmod +x newGD.ascr
+chmod +x gpnew.ascr
+#chmod +x newGD.ascr
 chmod +x gpxxif.sh
-chmod +x gpnew.sh
+#chmod +x gpnew.sh
 #chmod +x GPXifads.sh
 #chmod +x GPXads2.ascr
 #chmod +x GPXifads2.sh
